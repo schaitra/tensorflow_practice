@@ -6,6 +6,6 @@ python train.py \
        --model="rnn" \
        --batch_size=64 \
        --output_dir=large \
-       --dropout=0.1 \
+       --dropout=0.3 \
 
-tensorboard --logdir=large/tensorboard_log/ --port=6008
+tensorboard --logdir=large/tensorboard_log/ --port=6009
